@@ -3,6 +3,7 @@ import asyncio
 import aiohttp
 import discord
 from discord.ext import commands
+import discord.utils as utils
 from market_info import *
 
 class MktBot(commands.Bot):
